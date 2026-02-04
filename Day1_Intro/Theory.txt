@@ -1,0 +1,146 @@
+1. What is a programming Language?
+
+
+Language : It is process where the person's can exchange their thoughts
+program - set of instructions that are give to the system
+
+To build the bridge between the person and the machine we have compiler and interpreter.
+
+
+
+Languages are classified into 2 types.
+
+
+Low - Machine level language, Assembly
+High -  python, java, javascript, php.....
+
+compiler based languages - c, c++...
+interpreter based languages - javascript, php
+Hybrid - Compiler + interpreter - python,java
+
+
+What is Python?
+Easy to learn  a = 10 , print()
+syntax is very Easy
+Scripting lanaguage- Automation,
+High level lanaguage
+Hybrid language - 
+Platform Independent
+Dymanically Typed Language
+General purpose -
+Data Centric-
+programming Pradagims
+
+
+History Python- 
+
+Introduce by Guddio van Rossum, offically it was introduced in the year 1991.
+He named it as Python after watching a Tv show - Monty Python show.
+
+
+
+
+What is a hybrid Language?
+Combination of interpreter and Compiler
+
+
+Compiler     ???                               
+
+ Recipe-->> written in French
+ Translating that Enitre french recipe into english - compiled(Google/Chatgpt)
+English Script- start cooking 
+
+
+
+one time compiled
+if no errors then the code will execute
+Independent
+
+
+interpreter ????
+ Recipe-->> written in French
+  Translating that french recipe line by line to english - youtube/Friend(Intrepretter)
+  You will work along with that...
+
+
+n times
+it runs till the code where there are no errors
+Dependent
+
+  //coding
+sourcecode- whichn is wriiten b y us
+ //for example if it c language
+ 
+sourcecode(.c) ------>>  compiler(.exc)-----> binary
+
+
+//python - Bytecode, RunTimeEnviorment, PVM
+
+sourcecode(.py)--->compiler ByteCode(.pyc)--->Python Virtual Machine (Binary Code)--->>RunTimeEnviorment(OutPut)
+
+What is PlatformIndependent?
+
+
+what is platform?-->OPERATING STYSTEM
+
+Windows           Mac              Linux
+
+for c -- write the code .c -->compiled code .exc  -->> output
+The complied code for c cant be run of other Os which are compiled on one Os...
+
+
+but coming to Python.....
+
+compiler ByteCode(.pyc)-  window---->mac---->Linux  =>PlatformIndependent
+
+Dymanically Typed Language?
+ 
+a = 10;
+b = "Hello"
+  the datatype is defined by the runtime expilcitly...
+
+
+
+
+  General purpose - Desktop appl, webdevelopment, gaming,
+
+
+  Data Centric - Has vast Libraries - Numpy,pandas, seaborm..
+    Datascience,
+    ML & AL,
+    DA...
+
+
+    Paradigm means style of programming - 
+
+    Procedular - 
+    Functional - function
+    Modular -  groups of functions is called modules..
+    Ooops -   data, methods, objects
+
+
+    Python Libraries/modules
+
+    Desktop App- Tkinter, pyside
+    webdevelopment - django,flask
+    Games - Pygame,para 3d
+    Database - SQLlite, PyMySql
+    Ds - Numy,pandas,Tensor flow,
+
+
+
+
+    Flavors of Python??
+    Cpython
+    RubyPython
+    pyPython
+    IronPython - C#, dotnet
+    Jpython
+    pyPython
+    Anacondapython
+    VanillaPython
+
+
+    Version of Python
+    3- 3.14
+
