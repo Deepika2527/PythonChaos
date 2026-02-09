@@ -1,0 +1,127 @@
+Identifiers -
+
+A Identifiers are the identity given to a varibles/functions/classes/modules/object
+
+1. varaible Identifiers
+2. function Identifiers
+3. class  Identifiers
+4.  Module Identifiers
+5. Object Identifiers
+
+
+
+1. Varaible Identifer - 
+   
+name = 'Nikath',
+edu_bg = 'degree'
+total_sub = 7
+
+
+
+2. function:
+
+def greet():
+  pass
+
+
+3.class Student:
+  pass
+
+
+  There are some rules to definbe the Identifiers
+
+  1. It should be always a snake - classes
+  total_marks, age, product_details, name, firstname....
+
+
+  2. Case senstive -
+  name = 'nikath'
+  Name = 'fathima'
+  name = 'tarannum'
+
+  3. it can contains a-zA-Zdigits
+  procuct1
+  name3....
+
+  4. its shoulnt start with digits..
+  8name, 9email...
+
+
+  5. NO special symbols are allowed -
+  @phoneno,
+  $data
+
+
+  6.underscore is allowed but not the hyphen
+  first_name,
+  _total,
+  last-name
+
+
+  7. keywords are not allowed
+  reserved word which has some meaning - def, if, for, pass, while,class
+
+------------------------------------*************************---------------------------
+2. What is a Varaible??
+
+It acts like a conatiner whcih holds a value
+
+
+Why do we need a varaible??
+1. To store some data
+2. To perform soem operations
+
+syntax:
+varaibale_name = varaible_value
+ name = 'nikath'
+ class = 'Python'...
+
+
+
+ same rules like the Identifiers
+
+ 1. single valued varaible 
+
+ a= 10,
+ b= 20
+ c = 456.9
+
+2. Group Vraibles
+ a1,b1,c1 = 10, 20, 30
+
+
+ 3. single Value to Multiple varaibles
+
+
+
+x = y = z = 100
+4. Varible assigments during expressions
+
+a= 40
+b= 50
+c= a+b;
+
+
+
+the differnce between the varaible and the identifers is
+name, age, course, section...
+varaibles - name = 'xyz' , age =90...
+
+
+------------------------------------*************************---------------------------
+
+3. Comments -
+Comments are for the refernce of the code/ whatever it being done
+single commet - #
+docstring- ''' '''
+------------------------------------*************************---------------------------
+
+4. Indentation:
+1. It defines the block - {}.
+2. this is defult
+3. 1 inde = 4 spaces/1 tab
+4. its tartes from the beinig of the line
+
+
+
+

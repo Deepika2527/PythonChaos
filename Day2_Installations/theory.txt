@@ -1,0 +1,6 @@
+Installing Python-
+  1. Ways to install the python using Offical website.
+
+
+
+     add python .exe to th epath - Tick the option *****
