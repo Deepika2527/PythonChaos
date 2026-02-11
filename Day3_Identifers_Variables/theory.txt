@@ -28,7 +28,7 @@ def greet():
   pass
 
 
-  There are some rules to definbe the Identifiers
+  There are some rules to define the Identifiers
 
   1. It should be always a snake - classes
   total_marks, age, product_details, name, firstname....
@@ -39,7 +39,7 @@ def greet():
   Name = 'fathima'
   name = 'tarannum'
 
-  3. it can contains a-zA-Zdigits
+  3. it can contains a-zA-Z0-9digits
   procuct1
   name3....
 
@@ -120,7 +120,7 @@ docstring- ''' '''
 1. It defines the block - {}.
 2. this is defult
 3. 1 inde = 4 spaces/1 tab
-4. its tartes from the beinig of the line
+4. its starts from the begining of the line
 
 
 

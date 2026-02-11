@@ -1,0 +1,14 @@
+Type Converstion-
+Type Casting
+Converting one data type to another datatype
+
+
+These are classifed into 2 types
+1. Implict -
+This helps to convert internally by the Python
+No loss of data
+
+int -> float --> complex
+
+
+2. Explict

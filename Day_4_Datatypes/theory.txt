@@ -1,0 +1,53 @@
+DataType -
+A value that a varaible is stored 
+what type of data is beinfg stored
+
+why do we need datatype?
+to store values
+to know what kind od data is being stored
+to perform operations
+
+
+datatypes are classifed into 2 types primitive and non primitive
+1. primitive datatype -
+single values, immutable
+   1. int - integer - whole numbers both +ve and -ve no's, scalar value,precisions
+   2. float - decimal values - 3.14, 67.9 , temperatures - electornics
+   3. complex - real + imaginary - 5+3j
+   4. boolean - bool - True or False
+
+2. Non primitive datatype-
+Hetergenous , mutable
+
+
+Sequence datatypes - which can be accessed by the index,
+String - '', "", ''' '''
+List - odered ele, Hetergenous, [], acessed by index , mutable, Duplicates are allowed
+Tuple- ordred ele , Hetergenous , () ,acessed by index , immutable , Duplicates
+
+
+Non Sequence datatypes - set 
+Becaues there is no order, there is no index, 
+MUtable yet we can add or remov the data, Not Allow Duplicates, Hetergenous, {}
+
+dict -
+ {} - 
+ keyvalue pairs,
+  no dulipcate keys are allowed,
+
+
+  no index
+
+
+  synatx
+  d= {
+    "name" ="Deepika",
+    "class" = "Python"
+  }
+
+
+
+
+id- memory allocated/ taken by the varaible
+type - defines what is the type of the varaible
+sys.getsizeof - how much size the varaible will take
