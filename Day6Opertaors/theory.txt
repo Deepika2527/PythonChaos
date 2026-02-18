@@ -1,0 +1,62 @@
+Operators:
+These asre the symbols that we use to perform some operations between the operands
+operands- x+ y - x and y are operands, 10 + 20
+
+
+Types of Operators
+1.Arthematic - 
++
+-
+*
+**
+/
+%
+//
+
+2. Relational/comparsion
+<=
+>=
+<
+>
+3. Eqality Operator
+==
+!=
+
+4. logical Operators
+and 
+T T T
+T F F
+F T F
+F F F
+or
+T F T
+F T T
+F F F 
+T T T
+
+not
+
+5. bitwise
+AND
+XOR
+~
+
+
+6. Shift Operators
+<< left 
+>> right
+
+
+7. Identity-is, is  not
+
+8.Membership-in, not in
+
+9.Teranry
+
+
+10.Assigment Operator- 
++=
+-=
+
+
+

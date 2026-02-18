@@ -1,0 +1,57 @@
+input()- this is default python method where it will take the user's inputed values
+basically this will retun a string
+input()
+
+
+
+
+
+Flow control-
+In python everything exectues line by line and the way how we control the flow of the program is called flow control
+
+We use Flow controls:
+*To check the conditions
+*To iterate a particlar task for a period of time
+*Break from the code
+*To jump from the statements
+
+
+Flow controls are classified into 3 types
+1. Condtional statements
+2. Looping statements / Iterative statement
+3. Jumping statemnt/transfer Control/Control statements
+
+
+
+1. Condtional statemnts:  It checks the conditions and based on the conditong the block of code will be exctued else the other block of code will be executed or may not
+1. if -
+This is used to check the true statements
+syntax:
+if(condition){
+    //block of code will be executed
+}
+
+
+2. if-else -
+ basically if wlse contains 2 blocks like if and else
+ syntax:
+   if(Condition):
+      //block of code
+   else:
+      //block of code
+
+3. elseif: elif
+syntax:
+if(condition):
+    //block of code
+elif(condtion):
+    //block of code
+elif(conmdtion):
+    /block of code will be exctued
+else:
+    //block of code
+
+
+
+4. NestedIf
+5. Ternary
