@@ -31,6 +31,6 @@ Python supports +ve indexing and -ve indexing
 
 postive(start:stop:skip)
 default of start is 0, stop : lenght of the string , skip : 1
-Negative indexing- In negative indecing the start value should be less athn the stop bvalue
+Negative indexing- In negative indecing the start value should be greater than the stop value in negative indexing
 example(-4:-1)
 else it will return empoty (-1:-4)
