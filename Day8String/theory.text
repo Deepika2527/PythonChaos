@@ -1,0 +1,36 @@
+String - A string is a collection of characters that are enclosed in a single quotation, double quotation and triple-single quotations
+Sequence os charcters, it can be accessed through the index values
+This is immutuable
+examples of strings are "a", "abc@123", "789997"
+Strings are iterables
+input method we can collect the user's data in the form of string.
+len() - where we can check the length of the string
+
+
+few operators can support string- like + , * , in, not in(membership), ==
+
+
+len-
+
+
+'\ - single quote
+"\ - double quote
+\n - new line
+\t - newtab
+
+
+Strings can be Transversal
+for loop
+range
+enumerate
+
+
+indexing??
+Python supports +ve indexing and -ve indexing
+
+
+postive(start:stop:skip)
+default of start is 0, stop : lenght of the string , skip : 1
+Negative indexing- In negative indecing the start value should be less athn the stop bvalue
+example(-4:-1)
+else it will return empoty (-1:-4)

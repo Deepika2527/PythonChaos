@@ -53,5 +53,45 @@ else:
 
 
 
-4. NestedIf
-5. Ternary
+4. NestedIf -  to check the multiple condition
+syntax:
+ if condition1:
+   if condition 2:
+     statement
+else:
+
+
+     
+
+
+
+
+
+
+5. Ternary/opertor -
+alternative for if else-
+syntax:
+'if_true_statemt' if condition else 'if_false_statement'
+step 1: write t statement  - 'if_true_statemt'
+step 2: write if else using condition - if condition else
+step 3: write f statement - 'if_false_statement
+
+
+
+
+
+
+Loops:
+
+
+for and while
+for loop:squence 
+for(let i=0;i<10;i++)
+
+
+
+while:
+initialsition
+condtion()
+
+ince/dec i+= 10 i-=10
