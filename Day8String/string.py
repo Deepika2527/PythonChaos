@@ -89,7 +89,7 @@ print(st1[-5:-2])
 '''    
 Task _
 stng = "Python is very to learn."
-i want both postive and negative
+i want both postive and negative slcing
 use skip 4
 [::skip]
 [start:stop:skip]

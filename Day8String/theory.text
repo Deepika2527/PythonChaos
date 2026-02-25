@@ -1,5 +1,5 @@
 String - A string is a collection of characters that are enclosed in a single quotation, double quotation and triple-single quotations
-Sequence os charcters, it can be accessed through the index values
+Sequence of charqcters, it can be accessed through the index values
 This is immutuable
 examples of strings are "a", "abc@123", "789997"
 Strings are iterables
@@ -34,3 +34,51 @@ default of start is 0, stop : lenght of the string , skip : 1
 Negative indexing- In negative indecing the start value should be greater than the stop value in negative indexing
 example(-4:-1)
 else it will return empoty (-1:-4)
+
+
+
+Slice methods are classified into 6 parts
+Case converstion
+lower()
+upper()
+Captialisation()
+title()
+swapCase()
+
+
+
+Searching
+find
+rfind
+index
+rindex
+startswith
+endswith
+count
+
+Validations methods
+isalph()
+isdigit()
+isdecimal() - verypowerful - 0-9
+isnumeric()
+islower()
+isupper()
+isinstance()
+istitle()
+
+
+Modifying
+replace()
+strip()
+
+Spliting and joining()
+split()
+join()
+
+Formatting or alignment
+center() -  python
+this will take 2 paarmeters 
+(13,"*")
+
+zfill
+Encode
