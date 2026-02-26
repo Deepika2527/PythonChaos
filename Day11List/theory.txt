@@ -1,0 +1,29 @@
+List -  
+Collection of elements that are wrapped between []
+Hetregenous collections of elements
+These are ordered, the output wont be changed
+Duplicates are allowed
+We can access list through index values
+We can perform +, *, in, not in , ==
+we can range,len,enumerate
+
+
+List methods
+Adding Mehtods
+append()
+insert()
+extend()
+
+Deleting methods:
+pop()
+remove()
+clear()
+
+copy Mehtods
+copy()
+
+
+index()
+reverese()
+count()
+sort()
