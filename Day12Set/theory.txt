@@ -1,0 +1,88 @@
+set -
+set is denoted with {}
+where the duplicate values are not allowed
+set is unordered
+set is mutable - ewith the methods
+its a heterogebous collections of elemnts
+
+
+ways to create the set
+way 1 -
+
+s = {1,2,3,5}
+
+
+way 2
+s1 = set({1,2,4})
+
+
+
+Methods
+add()
+update()
+remove()
+pop()
+discard()
+union()
+intersection()
+differnce()
+symmernyrics_differnce()
+intersection_update()
+disjoin()
+copy()
+
+
+
+
+
+ey Takeaways
+
+The type of empty {} gives dict, not set.
+To create empty set we use:
+
+set()
+
+add() takes only one argument.
+update() takes only one iterable argument (not two mandatory arguments).
+If we pass non-iterable to update(), it will give error.
+
+Using add() we cannot add dict, list, or set (unhashable types).
+But update() can take a dictionary as argument and it will add only the keys.
+
+Difference between remove() and discard():
+
+remove() → throws KeyError if element not present.
+
+discard() → does not throw any error if element not present.
+
+intersection() and intersection_update():
+
+intersection() → returns a new set.
+
+intersection_update() → modifies the original set.
+
+To add a tuple using add():
+
+s.add((value1, value2))
+
+(No need of double brackets unless tuple contains single element.)
+
+To update tuple using update():
+
+s.update([(v1, v2)])
+
+or
+
+s.update({(v1, v2)})
+
+If we give single string in update():
+
+s.update("hi")
+
+It will split into characters → {'h','i'}
+
+But if we give:
+
+s.update(("hi",))
+
+It will take as full string → {'hi'}
