@@ -1,0 +1,57 @@
+Comprehensions in Python
+
+Comprehensions in Python allow us to write code in a shorter and more readable way to create collections.
+
+Python supports three types of comprehensions:
+
+List Comprehension
+
+Dictionary Comprehension
+
+Set Comprehension
+
+
+ListComprehension
+
+A list is a built-in data structure used to store multiple items in a single variable.
+List Comprehension is a shorter way of creating lists in Python.
+It creates a new list by iterating over an iterable and applying an expression to each item.
+
+
+lets see the diffence between for loop and list comprehesnions
+
+Loop will iterate and returnd individual values whre as list comprehension will return us a new list
+ListComprehension is little faster than the loop
+
+
+
+Syntax:
+[expression for item in iterable]
+
+
+expression  - i*i
+for - loop
+item - i
+iterable - list
+
+
+steps to remember to write list comprehension
+step 1 : create a list [] and assign it to a variable
+step  2: in the list define the exp, followed buy loop,then followed ny ite,(i,j,k...) finally the iterable...
+
+
+
+list comprehension using if condition
+
+Syntax:
+[expression if item in iterable if_condition]
+
+
+list comprehension using if-else
+
+syntax - [exp_true_val if condition else false_vaue for item in iterable]
+
+
+list comprehension using nested list
+syntax
+[exp for a in x for b in y]

@@ -1,0 +1,37 @@
+Dict :
+  Its is a key-values pairs,
+  Where the keys are uniques and seprated by a comma
+  denoted by {}
+  mutuable??
+  cant be accessed through indexing
+  we can acess them thorugh the keys
+  Hetergenous collection of elemnets
+
+
+Ways to define the Dict
+
+
+
+
+Traversal like for, enumrate
+
+Methods
+key()
+items()
+values()
+setdefault()
+get()
+pop()
+popiTems()
+fromkeys()
+copy()
+update()
+
+
+
+Keytakeawyas
+1. It supports all the datatypes as a values
+2. it will not support list, set and dict as a keys
+3. The differmce between setdefault and get is both acts same like updating the keys if not present but setdeault will effect the orginal data while get() will not effect the orginal data
+
+
