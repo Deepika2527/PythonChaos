@@ -15,7 +15,8 @@ ListComprehension
 
 A list is a built-in data structure used to store multiple items in a single variable.
 List Comprehension is a shorter way of creating lists in Python.
-It creates a new list by iterating over an iterable and applying an expression to each item.
+It creates a new list by iterating over an iterable and applying an expression to
+ each item.
 
 
 lets see the diffence between for loop and list comprehesnions

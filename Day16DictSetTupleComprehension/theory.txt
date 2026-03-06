@@ -1,0 +1,59 @@
+Dictionary Comprehension
+Definition
+
+Dictionary Comprehension is a short and simple way to create a new dictionary.
+It iterates through an iterable (like list, range, tuple) and creates key–value pairs.
+
+It works similar to a for loop but in one line of code.
+
+Basic Syntax
+variable = {key_expression : value_expression for item in iterable}
+Explanation
+Part	Meaning
+variable	Dictionary name
+key_expression	Expression used to create key
+value_expression	Expression used to create value
+item	Loop variable (i, j, k, ch etc.)
+iterable	range(), list, tuple, string etc
+Example
+d = {i: i*i for i in range(5)}
+print(d)
+Output
+{0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+Dictionary Comprehension with if condition
+
+Used when we want to filter values.
+
+Syntax
+{key_expression : value_expression for item in iterable if condition}
+Example
+d = {i: i*i for i in range(10) if i % 2 == 0}
+print(d)
+Output
+{0: 0, 2: 4, 4: 16, 6: 36, 8: 64}
+Dictionary Comprehension with if–else
+
+Used when we want two different values based on a condition.
+
+Correct Syntax
+{key : value_if_true if condition else value_if_false for item in iterable}
+
+⚠️ Note: key cannot appear twice. Only value changes.
+
+Example
+d = {i: "Even" if i % 2 == 0 else "Odd" for i in range(5)}
+print(d)
+Output
+{0: 'Even', 1: 'Odd', 2: 'Even', 3: 'Odd', 4: 'Even'}
+Important Note (Correction)
+
+Your syntax was written like this:
+
+{key:value_if_true if condtion else key:value_if-false for item in iterable}
+
+❌ This is incorrect
+
+Correct syntax:
+
+{key : value_if_true if condition else value_if_false for item in iterable}
+
