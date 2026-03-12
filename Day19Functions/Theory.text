@@ -1,0 +1,86 @@
+Functions:
+This is a block of code,which can execute a specific task for a multiple no of times
+
+
+
+print("Hello all Welcome to Python")
+print("Hello all Welcome to Python")
+print("Hello all Welcome to Python")
+print("Hello all Welcome to Python")
+print("Hello all Welcome to Python")
+print("Hello all Welcome to Python")
+print("Hello all Welcome to Python")
+print("Hello all Welcome to Python")
+print("Hello all Welcome to Python")
+-----------------------------------------------------------------------------------
+syntax:
+def function_name():
+    statements
+function_name()
+
+def : to define a function in Python
+function_name: Follow the rules same like identifier - snakecase() ex:test(),greet()
+() : acts as aplaceholder mandator
+: - This will define the indentation, and say that indentation shoul strats from here.Block is getting started {}
+statements :  print("Hello")
+
+
+function_name() - With out calling the function, it returns nothing -empty
+
+-----------------------------------------------------------------------------
+correct way to define the function
+def greet():
+    print("Hello all")
+greet()
+
+we can call the function before defining the function
+test()
+def test():
+    print("Hello")
+
+
+------------------------------------------------------------------------
+Types of function
+1. built-in function
+2. user defined Functions
+
+1. Built in Functions
+These are the predefine functions and has a special Meaning
+
+examples:
+print()
+len()
+range()
+enumerate()
+list()
+set()......
+
+
+
+How can we know the Built in function??
+dir(__builtins__)
+dir - we can print all the methods of that object
+builtin- diplays all the predefined biultin functions; all the availbel names of that object
+__ - This a magical names
+
+print(dir(list))
+
+
+--------------------------------------------------------------------------
+2. user defined function:
+In order tom perfrom a specific logic we user define functions
+
+1.Basic function
+function without retun statements 
+function with return statements: 
+* if the function is not returning anything and if we print the fucntion its return None
+* After return the program gets terminated.
+* If we write the statements after retun it will not print
+
+2. Funtional Arguments
+    a.Postional argumenst
+    b. keyword Arguments
+    c. Default Arguments
+    d. VaraibleLength postional arguments - *args
+    e. Keyword VaraibleLength arguments - **kwargs
+

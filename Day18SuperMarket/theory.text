@@ -1,0 +1,21 @@
+Step 1: To store the Input Info - Tuple
+    Name of the supermarket
+    Location
+    Contact No
+Step 2 - Products - Dictonary
+    products = {
+        'name' : price,
+        'name1' : price1
+    }
+step 3: Membership System  - Set
+memebers =  {T12,F32,N90}
+
+
+step 4: Cart - shopping Cart -List
+
+
+step 5:Billing section 
+
+step 6:Membership Discount
+
+
