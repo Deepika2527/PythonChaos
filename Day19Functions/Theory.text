@@ -78,9 +78,46 @@ function with return statements:
 * If we write the statements after retun it will not print
 
 2. Funtional Arguments
-    a.Postional argumenst
-    b. keyword Arguments
-    c. Default Arguments
-    d. VaraibleLength postional arguments - *args
+    a. Positional argumenst -
+     based on the postions the valuesa re taken
+        
+    b. keyword Arguments :
+    The arguments are passed based on the keywords
+
+
+    Rember that always keyword arguments will follow postionla arguments
+    c. Default Arguments :
+
+    d. VaraibleLength postional arguments - *args :
+
+    syntax: 
+
+    def no(*args):
+        statements
+    no(v1,v2,v3,v4,5,...........,vn)
+
+    This will return tuple
+
     e. Keyword VaraibleLength arguments - **kwargs
 
+   This will return dict..
+   def dem(**kwargs):
+        statement
+    demo(k = 'v1', k2 = "v2")
+
+
+
+
+    key takeaways:
+    1. *args - the  name can be anything
+    2. *args will return the tuple
+    3. **kwargs - the name cane be anything
+    4. **kwargs - return the dict
+    5. when we use postional aruments and keyword arguments together postional should come first then keyword arguments
+    6. when we use postional,*args, keyword and **kwrags al 4 together
+    first postional
+    second - args
+    third - kewword
+    finally - kwargs
+    7. / - denotes the function accepts only postion arguments (a,b,/)
+    8. * - denotes the function accepts onl keyword arguments (*,a,b)

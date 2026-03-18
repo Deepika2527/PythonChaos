@@ -32,3 +32,22 @@ print("Calling the function before")
 def maths():
     print(5+8)
 # maths()
+
+def operations(a,b):
+    print('Addtion', a+b)
+    print('Subratction', a-b)
+    print('Mul', a*b)
+
+operations(10,2)
+
+def maths(x,y):
+    return x+y, x-y, x*y, x/y, x//y
+# res = maths(10,2)
+# print(res)
+# print(type(res)) #this will return tuple
+# for r in res:
+#     print(r)
+
+# (x,y) =maths(12,3)
+# print(x)
+# print(y)
