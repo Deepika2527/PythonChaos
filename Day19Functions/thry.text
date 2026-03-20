@@ -1,0 +1,29 @@
+scopes
+: Lifetime of  a varibale hwre it id defined, how it can be accessedand how the values will effect
+
+
+there are two type of scopes
+Local 
+global
+
+
+local : the life of the varaible exists only inside the function is called Local
+
+global : you can define globally and can be accessed it anywhre
+
+
+
+global- keyword, where it will help to modify the global varaible
+a = 10
+def test():
+   global a
+   a = 20
+   print(a)
+
+
+
+
+nonlocal - this is used inside the nested function
+the inner function can acess the outer functions varaible this is called enclosing scope
+
+
