@@ -1,0 +1,21 @@
+Modules -
+
+A piece of code that can  be a varaible. function , class that can be created in one file and and can be used in another file.py
+
+why do we need Modules
+reusability of code
+Maintainence of code
+easy debugging
+
+
+ways to import Modules
+import Module
+import modules as m
+from modules import member as a
+from modules import member1, member2
+from modules import *
+
+ways to define modules
+userdefine
+standarlibary modules
+

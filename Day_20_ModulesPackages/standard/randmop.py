@@ -1,0 +1,18 @@
+import random as r
+print("Using random methods..................")
+print(r.random())
+print(r.randint(10,20))
+print(r.randrange(0,50,5))
+l = list(range(11))
+print(l)
+print(r.choice(l))
+print(r.choices(l,k=9))
+print(l)
+print(r.sample(l,k=5))
+print(r.sample(l,k=11))
+l1 = [1,2,3,4,5,6]
+print(l1)
+r.shuffle(l1)
+print(l1)
+print(r.uniform(6.7,9.8))
+print(r.uniform(5,9))

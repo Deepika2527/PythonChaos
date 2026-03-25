@@ -1,0 +1,38 @@
+High Order functions
+Closures
+map
+filter
+reducez
+recusrive functions 
+Task
+genreally for fact, fib, sum of total
+fac n * n-1
+n-1 + n-2
+High order function: 
+1.The function which takes another function as a argument is called hof
+2. using return
+syntax
+def test(fun): 
+  print("This id testing functions")
+  fun()
+def demo()
+    print("This is demo function)
+test(demo())
+
+
+
+lambda : Its a built function where we write it in a shoreter way by using lamnda keyword
+
+this is also called as anonoymous functions
+
+synatx: lambda var: expression
+example a = lambda s : s*s
+
+
+map: It is hof, which is buit-in
+map is used to iterate over each ele in the list or iterable
+
+syntax:
+map(function,iterable)
+
+
