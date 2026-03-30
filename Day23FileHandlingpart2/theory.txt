@@ -1,0 +1,48 @@
+Csv-
+Comma separted values
+data will be in a tabluar form
+rows and columns
+
+
+
+import csv
+
+
+read
+write
+
+
+
+reader()
+writer()
+writerow()
+writerows()
+dictreader()
+dictwriter()
+header()
+
+
+
+how to use the csv file for reading
+step1: import csv
+step2: varaible_object read the method using syntax
+varaible_obj = open("csvfilename.csv","mode")
+step3: csv.reader(varaible_obj )
+
+
+how to used the csv filr for writing:
+step 1: import csv
+step 2: with open("filename.csv","mode",newline="") as f:
+spte 3: varaibale = csv.writer(f)
+step 4: varaibale.writerow(["col1","col2","col3",......])
+
+
+
+dictReader: csv DictReader reads the csv file and converts the each row into dictornary
+
+
+
+open with("filename.csv","r") as file:
+reader = csv.reader(file)
+for row in reader:
+print(row)
