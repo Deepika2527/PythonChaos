@@ -1,0 +1,54 @@
+what are exceptions
+what are errors
+types of errors
+exception handling
+
+
+
+exceptions:these are the error that are raised and will stop the exection afrom that point
+
+
+errors: the code cant digest bthe error and it thows a message for us to solve it
+
+types of errors:
+1. syntax error: 
+2. Runtime error:
+3. Logical error
+
+1. syntax error:
+Grammatical errors
+
+these errors can be corrected.
+missing a "name
+missing a enclosing )
+or miss tyoing whille
+if 
+print()
+
+2. RunTime Error:
+
+these are the error  raised during the runtime
+like
+zerodivison error
+valueerror
+nameerror
+keyerror
+indexerror
+indentation error
+
+
+
+exception HandlingL
+it is way how to handle the errors without blocking the code.
+try: we put the risky code code
+except: how to handle the error
+finally: however it is we will get the output
+
+
+default expection
+we use this default exce[ption  in the except  with  a message
+except zeroDivsionerror as e:
+print(f"error is{e}")
+
+
+3. logical error

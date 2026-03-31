@@ -8,11 +8,11 @@ import csv
 
 
 
-# print("Using with Open method")
-# with open("data.csv","r") as f:
-#     csv.reader(f)
-#     for r in f:
-#         print(r)
+print("Using with Open method")
+with open("data.csv","r") as f:
+    csv.reader(f)
+    for r in f:
+        print(r)
 
 
 
