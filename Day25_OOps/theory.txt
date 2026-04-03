@@ -1,0 +1,86 @@
+OOPs:
+Object-Oriented Programming (OOP) is a programming paradigm based on classes and objects.
+
+👉 It helps to organize code in a real-world way.
+
+ class, object, constructor, self,synatx of class
+
+ THere are 4 main pillarss to build oops
+ 1. class
+ 2. objects
+ 3. constructor
+ 4. self keyword
+
+
+ why oops*:
+ securtiy
+ modularity
+ scalablity
+ 
+
+
+
+ 1. class: 
+ It is a blueprint with a collection of varaiable and methods
+ varaiables : properties/ parameter - name,color,fuel,engine
+ functions : methods - start(), stop()
+   we have function but why do we  need oops??
+
+
+syntax:
+class Student:
+
+        pass
+2. Object : instance of the class
+reference 
+s = Student()
+
+
+
+3.constructor: its is special method used inisde the class
+__init__: when the object is created the constructor is automaticlaly called
+def __init__(self):
+
+
+
+class Car():
+     def __init(self,v1,v2):
+        self.v1 = v1
+        self.v2 = v2
+c = Car()
+
+
+
+
+4. Self:
+
+Self keyword is similar to the this word in js, which represnts the curennt intsance of the class.
+
+in real time as class is nothing but a builtprint which hsa varaibles and objects(real entites)
+
+
+
+
+class Car:
+   def __init__(self,name,color,fuel):
+       self.name = name
+       self.color = color
+       self.fuel = fuel
+    def start(self):
+       print("The car has started:", self.name)
+    def stop(self):
+         print("The car has ran out the fuel:", self.fuel)
+
+
+createing object
+c = Car("Punch","white","Petrol")
+c.start()
+
+c1 = Car("Toyato","Black","disel")
+c.stop()
+
+Car → Class
+__init__ → Constructor
+self → Refers to current object
+start() and stop() → Methods
+c, c1 → Objects (instances)
