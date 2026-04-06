@@ -1,0 +1,15 @@
+Python
+
+Syntax of the python is very Easy
+
+Highlevel - interpreter /
+compiler - The compiler will translate the data ot once
+interpreter - line by line
+
+mixed version of both - hybrid(combination of interprter and complier)
+
+
+what are the topics you we use in python
+Basic
+
+

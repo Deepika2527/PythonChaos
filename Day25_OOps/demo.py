@@ -43,3 +43,21 @@ class Student:
 s1 = Student("S1",101,"PFs")
 s1.job()
 
+
+class Bus:
+    def __init__(self):
+        self.name = "Redbus"
+        self.fuelt = "petrol"
+
+    def start(self,driver):
+        print(driver)
+        
+        print("The bus name is", self.name)
+# b= Bus()
+# b.start("Xyz")
+# print(b.name)
+
+# print(b.fuelt)
+
+Bus().start("John")
+print(Bus().name)

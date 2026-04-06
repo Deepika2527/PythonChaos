@@ -62,6 +62,7 @@ in real time as class is nothing but a builtprint which hsa varaibles and object
 
 
 class Car:
+
    def __init__(self,name,color,fuel):
        self.name = name
        self.color = color
@@ -84,3 +85,35 @@ __init__ → Constructor
 self → Refers to current object
 start() and stop() → Methods
 c, c1 → Objects (instances)
+
+
+
+
+
+variables:
+1. Instacne variables
+2. Static/class variables
+3. Local variables
+
+
+1. instance varaibles:
+These are the varaibles ,where the values will vary from one object to another object
+
+we can create instance varaible in 3 ways:
+1. Inside the constructor using self keyword
+2. Inside the instance method using self keyword
+3. Outside of the object  creation using object ref
+
+
+2. Class Variables:
+These are the Varaibles where the value of the varaible will not vary from from object to another object. these are defined inside the class
+
+ways to define the class varaible
+1. we will define this inside the class but outside the constructor 
+2. We define the class varaible inside the instance varaiable using 
+3. We define the class varaiable inside the class method and also the static method
+4. Outside of the constructor using classname
+
+
+3.local Varaibles:
+where the value is accessed for that particular method
