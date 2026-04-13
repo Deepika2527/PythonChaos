@@ -1,0 +1,48 @@
+Abstraction:
+
+
+
+concrete class
+interface classes
+Abstraction
+
+concrete class
+
+
+class Student:
+    def __init__(self,name):
+        pass
+     def method1():
+        pass
+
+the below code is a concrete class  
+clas Animal:
+  def__init__(self,name):
+    self.name = name
+ def communicate(self):
+    print(f"{self.parametre1}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

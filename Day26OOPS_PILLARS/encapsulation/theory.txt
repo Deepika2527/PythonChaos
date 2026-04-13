@@ -1,0 +1,31 @@
+Encapsulation:
+
+wrapping of data and methods into a single unit is called Encapsulation
+
+public varaibles
+private varaibles __
+protected   _
+name mangling
+
+
+1.public varaibles:
+This is similar to the instance varaible, where we are going to use the varaible that makes public
+instance varaible - the way we created it
+
+
+
+2.protected varaible: These are the varaibles that created in the parent class can be used inside the child class
+we can also use that with the object refrence but that is not suggestable
+
+it is denoted with _ single underscore
+
+
+3. Private Varible : __ (double underscore)
+
+getter and setter methods
+
+getting method : read the value - return
+setter method : we set the value - basically we will write the condition
+
+
+name mangling _ this is mechanism where the private_varaibles are getting accesd with the object._ClassName__private_varaible, but this method is not recommended

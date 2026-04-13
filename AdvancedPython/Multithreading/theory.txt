@@ -1,0 +1,68 @@
+What are we going to cover in this class?
+
+Muilti Threading:
+
+process:
+multitasking
+multithread:
+uniTasking
+
+how do we use multi-threading
+how many ways we can create it
+
+mutex and semaphore
+
+
+----------------------------------------------------------------------------------------
+process : Windows chrome or visual studios is  process,where we can execute mutliple task
+
+unitasking- Where we perform only one task is called unitasking
+
+multitasking : in a chrome i can open a fb,instagram or youtube...
+multithread : 
+----------------------------------------------------------------------------------
+
+how to implemet this multiThreading
+from Threading import *
+
+the ways to create multi threading
+1. using functions
+2. using class
+
+1. using function:
+
+def task(p1,p2,p3,p4):
+  //block of code
+
+/creating a thread
+t = Thread(target,name,args,kwargs,daemon)
+
+t.start()
+
+target = which used to assign the function
+ex: target = task
+
+
+name: Name of the thread
+ex: name = "numbers"
+
+args : passing bthe values in a tuples
+ex: (10,20) (10,)
+
+kwags: passing as a keyword arguments
+ex: {'p3': 10, 'p4': 10}
+
+deamon() - By deafult the deamon thread would be in False
+
+
+methods()
+start()- start the thread
+join() -  join will help the thread to get excuted
+is_Alive() : to check the thread is alive or not
+name :  To check the current thread name
+id(): identification number of the thread
+enumearte(): how many threads are running
+
+
+what is a daemon thread???
+It will stop the exection as and when the main thread stopped exection
