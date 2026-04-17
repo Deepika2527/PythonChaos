@@ -1,0 +1,44 @@
+What is Ipc
+queue
+pipe
+shared memory
+-----------------------------------------------------------------------------
+Ipc: Inter process communications
+This is procees where it allows differnt prcess to communicate  and shared data with each other.
+
+
+multple process to talk ansd exchange the data
+ecah process wil have its own memory,one prcess dtaa cant be accessed directly by the another process
+-------------------------------------------------------------------------------
+queue: Fifo
+
+Its a safe way to share the data between the process
+tehy dont share memory like thread
+
+queue is there to send the data between the processes
+
+
+synatx:
+from multiprocessing import *
+q = Queue()
+q.put(data)
+q.get()
+
+
+-------------------------------------------------------------------
+Pipe:
+a PIPE IS A COMMUNICATION CHANNEL BETWEEN Two processes
+it allows direct data tranfers
+
+sytax:
+from multiprocessing import *
+parent_conne, child_conn = Pipe()
+
+----------------------------------------------------------------------
+3. shared memory(value,array)
+
+Shared memory allows you to processes to shre data directly using memory
+
+synatx:
+def update(num)
+

@@ -1,0 +1,26 @@
+Iterators: This is used to traverse over the sequence of the elements
+iter()  and next() 
+synatx:
+ a = [v1,v2,v3]
+ it = iter(a)  
+ print(nest(it))
+ stopiteration
+
+
+ class __iter__() and __next__ return the value
+ class demo:
+  def __init__(self):
+    self.val = value
+ def __iter__(self):
+    return self //it = iter(d)
+ def __next__(self):
+    return value
+
+d = demo()
+
+Gnenetorrs: These are the special function thare are provided by the python.We use yield keyword
+def demo():
+ yield 1
+ yield 2
+ g = demo()
+ print(next(g))

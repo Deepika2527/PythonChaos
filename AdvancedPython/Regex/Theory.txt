@@ -1,0 +1,47 @@
+Regex: regular expression
+-------------------------------------------------------------------------------------------
+which is used to validate the data,store the data
+regex = pattern + text
+import re 
+---------------------------------------------------------------------------------
+methods:
+match() - This is will match the pattern. This search/match at the beginning of the text
+syntax:
+ re.match(pattern,text)
+ This will return None if it couldnt find the match
+
+search() - This wil search the pattern presented anywhere in the string
+finditer() -
+findall()
+group()
+span()
+sub()   - This acts like  a replace
+
+syntax:
+re.sub("Oldstr","newstr","text")
+
+
+
+
+quantifiers:
+* - zero or more
++  - 1 or more
+?  - zero or 1
+{min,max} - {2,5}
+{min,}  -{5,}
+{,max} -{,2}
+
+\d
+\w
+\s
+charcterset :
+[0-9]
+[a-z]
+[A-Z]
+
+
+^ - START VS NEGOTATION
+$ - Ending
+
+Greedy vs Non Greedy
+

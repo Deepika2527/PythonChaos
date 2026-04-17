@@ -66,3 +66,7 @@ enumearte(): how many threads are running
 
 what is a daemon thread???
 It will stop the exection as and when the main thread stopped exection
+
+
+
+
