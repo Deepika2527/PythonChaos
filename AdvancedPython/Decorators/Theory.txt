@@ -1,0 +1,11 @@
+Decorators: this helps to modify the  behaviour of the code without chnaging the orginal data
+
+synatx:
+def decor(actual_fun):
+   def wrapper():
+     //block of code- Additional
+     actual_fun()
+    return wrapper
+@decor
+def actual_fun():
+   //block of code
